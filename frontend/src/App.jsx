@@ -7,7 +7,7 @@ function App() {
   const [logs, setLogs] = useState([]);
 
   // Change to your backend URL
-  const API_URL = 'http://localhost:5000/api/data';
+  const API_URL = 'https://day24-api-caching-system.onrender.com/api/data';
 
   const fetchData = async () => {
     setLoading(true);
